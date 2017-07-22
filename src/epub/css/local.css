@@ -1,6 +1,45 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.name{
+	white-space: nowrap;
+}
+
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] p{
+	margin: 25% auto;
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:valediction"]{
+	font-variant: small-caps;
+	text-align: right;
+	margin-top: 1em;
+}
+
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
@@ -16,12 +55,8 @@
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:poem"] + p{
-	text-indent: 0;
+   	text-indent: 0;
 }
 
 p span.i1{
@@ -32,10 +67,6 @@ p span.i1{
 p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
-}
-
-p span.salutation{
-	font-variant: small-caps;
 }
 
 p span.signature{
