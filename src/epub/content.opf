@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/g-k-chesterton/the-wisdom-of-father-brown</dc:identifier>
@@ -44,7 +44,6 @@
 		<dc:source>https://books.google.com/books?id=V0wmAAAAMAAJ</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Father_Brown#Compilation_books</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/g-k-chesterton_the-wisdom-of-father-brown</meta>
 		<dc:creator id="author">G. K. Chesterton</dc:creator>
@@ -64,10 +63,9 @@
 		<dc:contributor id="transcriber-2">Martin Ward</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Ward, Martin</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
-		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
-		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -79,8 +77,12 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-absence-of-mr-glass.xhtml" id="the-absence-of-mr-glass.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-duel-of-dr-hirsch.xhtml" id="the-duel-of-dr-hirsch.xhtml" media-type="application/xhtml+xml"/>
@@ -100,6 +102,8 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="the-absence-of-mr-glass.xhtml"/>
 		<itemref idref="the-paradise-of-thieves.xhtml"/>
 		<itemref idref="the-duel-of-dr-hirsch.xhtml"/>

@@ -15,21 +15,6 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p{
-	text-align: left;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p > span{
-	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
-}
-
-[epub|type~="z3998:verse"] p > span + br{
-	display: none;
-}
-
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
@@ -56,7 +41,7 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:poem"] + p{
-   	text-indent: 0;
+	text-indent: 0;
 }
 
 p span.i1{
