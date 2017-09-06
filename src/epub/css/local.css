@@ -19,12 +19,6 @@ section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:valediction"]{
-	font-variant: small-caps;
-	text-align: right;
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
