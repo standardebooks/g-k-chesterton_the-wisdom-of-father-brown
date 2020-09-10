@@ -44,7 +44,7 @@ p span.i2{
 	padding-left: 3em;
 }
 
-p span[epub:type~="z3998:signature"]{
+p span[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
@@ -53,6 +53,6 @@ footer{
 	margin-top: 1em;
 }
 
-[epub:type~="z3998:signature"]{
+[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
