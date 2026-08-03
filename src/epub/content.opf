@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/g-k-chesterton/the-wisdom-of-father-brown</dc:identifier>
 		<dc:date>2017-09-07T21:51:20Z</dc:date>
@@ -52,12 +52,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Father Brown</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<dc:description id="description">Amateur detective and Catholic priest Father Brown solves mysteries in this second collection of Father Brown short stories.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Amateur detective and Catholic priest Father Brown solves mysteries in this second collection of Father Brown short stories.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Father Brown, &lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;&lt;abbr&gt;G. K.&lt;/abbr&gt; Chesterton’s&lt;/a&gt; crime-solving Catholic priest, is back in this second collection of Father Brown short stories.&lt;/p&gt;
 			&lt;p&gt;In this collection, Brown is joined by his sidekick, the former arch-criminal Flambeau. Brown is directly involved in the investigations less frequently than in &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/g-k-chesterton/the-innocence-of-father-brown"&gt;The Innocence of Father Brown&lt;/a&gt;&lt;/i&gt;, and several of the stories don’t even feature murder. Despite this, the shorts each feature Brown solving a mystery using his characteristic insight into human nature and morality.&lt;/p&gt;
 			&lt;p&gt;The stories in this collection were initially published in various serials, including &lt;i&gt;McClure’s Magazine&lt;/i&gt; and &lt;i&gt;The Pall Mall Magazine&lt;/i&gt;. Chesterton arranged them in this collection almost in order of publication.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/223</dc:source>
 		<dc:source>https://books.google.com/books?id=V0wmAAAAMAAJ</dc:source>
